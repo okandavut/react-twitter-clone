@@ -3,7 +3,7 @@ import "./menu.css";
 import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 function Menu() {
   return (
-    <div className="App">
+    <div className="menu-item">
       <ul className={"menu"}>
         <li>
           <HomeRoundedIcon />
