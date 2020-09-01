@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  height: 100%;
+}
+li {
+  margin: 0 0 20px 0;
+  background-color: white;
+  border-radius: 30px;
+  min-width: 20%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+li:hover {
+  background-color: #e8f5fe;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.menuItem {
+  margin: 0px 0px 0px 15px;
+}
