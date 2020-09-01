@@ -1,12 +1,13 @@
 .right-line{
     border-right:0.5px solid #E6ECF0;
 }
-
 .top-line{
     border-top:0.5px solid #E6ECF0;
     border-right:0.5px solid #E6ECF0;
 }
-
 .left-line{
     border-left:0.5px solid #E6ECF0;
+}
+.home-logo{
+    margin:7px 0px 0px -5px;
 }

@@ -12,7 +12,7 @@ import SearchBox from "../components/SearchBox/searchbox";
 function Home() {
   return (
     <div >
-      <Container fixed>
+      <Container maxWidth="lg">
         <Grid container spacing={3} >
           <Grid
             item
@@ -27,30 +27,31 @@ function Home() {
             <img
               src="https://cdn2.iconfinder.com/data/icons/minimalism/512/twitter.png"
               alt=""
-              width="60"
-              height="60"
+              width="40"
+              height="40"
+              className="home-logo"
               
             />
           </Grid>
-          <Grid item xs={6} sm={6}>
+          <Grid item xs={12} sm={6}>
             <TweetContainer />
           </Grid>
-          <Grid item xs={6} sm={3} className="left-line">
+          <Grid item xs={12} sm={3} className="left-line">
             <SearchBox />
           </Grid>
         </Grid>
         <Grid container spacing={3}>
-          <Grid item xs={6} sm={3} className="right-line">
+          <Grid item xs={12} sm={3} className="right-line">
             <LeftContainer  />
           </Grid>
-          <Grid item xs={6} sm={6}  className="top-line">
+          <Grid item xs={12} sm={6}  className="top-line">
             <MainContainer />
           </Grid>
-          <Grid item xs={6} sm={3} className="left-line">
+          <Grid item xs={12} sm={3} className="left-line">
             <RightContainer />
           </Grid>
         </Grid>
-      </Container>
+        </Container>
     </div>
   );
 }
