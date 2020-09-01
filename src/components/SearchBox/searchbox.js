@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './searchbox.css';
+
 function SearchBox() {
   return (
-    <div className="App">
-        <input type="text" placeholder="Search"></input>
+    <div className="search">
+        <input type="text" placeholder="Search" className="search-box"></input>
     </div>
   );
 }
