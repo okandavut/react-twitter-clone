@@ -2,18 +2,20 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
 
-import './home.css';
-import LeftContainer from "../containers/LeftContainer/leftcontainer";
-import RightContainer from "../containers/RightContainer/rightcontainer";
-import MainContainer from "../containers/MainContainer/maincontainer";
-import TweetContainer from "../containers/TweetContainer/tweetcontainer";
+import "./home.css";
+
+import Menu from "../../components/Menu/menu";
+import TweetButton from "../../components/TweetButton/tweetbutton";
+import TweetSection from "../../components/TweetSection/tweetsection";
 import SearchBox from "../components/SearchBox/searchbox";
+import HashtagList from "../../components/HashtagList/hashtaglist";
+import TweetList from "../../components/TweetList/tweetlist";
 
 function Home() {
   return (
-    <div >
+    <div>
       <Container maxWidth="lg">
-        <Grid container spacing={3} >
+        <Grid container spacing={3}>
           <Grid
             item
             xs={12}
@@ -30,11 +32,10 @@ function Home() {
               width="40"
               height="40"
               className="home-logo"
-              
             />
           </Grid>
           <Grid item xs={12} sm={6}>
-            <TweetContainer />
+            <TweetSection />
           </Grid>
           <Grid item xs={12} sm={3} className="left-line">
             <SearchBox />
@@ -42,16 +43,17 @@ function Home() {
         </Grid>
         <Grid container spacing={3}>
           <Grid item xs={12} sm={3} className="right-line">
-            <LeftContainer  />
+            <Menu />
+            <TweetButton />
           </Grid>
-          <Grid item xs={12} sm={6}  className="top-line">
-            <MainContainer />
+          <Grid item xs={12} sm={6} className="top-line">
+          <TweetList />FF
           </Grid>
           <Grid item xs={12} sm={3} className="left-line">
-            <RightContainer />
+          <HashtagList/>
           </Grid>
         </Grid>
-        </Container>
+      </Container>
     </div>
   );
 }

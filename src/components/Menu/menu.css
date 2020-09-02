@@ -1,7 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-}
+
 html,
 body {
   height: 100%;
@@ -16,8 +13,8 @@ li {
   margin: 0 0 20px 0;
   background-color: white;
   border-radius: 30px;
-  min-width: 20%;
-  height: 30px;
+  min-width: 30%;
+  height: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -38,5 +35,6 @@ li:hover {
   align-content: flex-start;
 }
 .menuItem {
-  margin: 0px 0px 0px 15px;
+  padding: 20px;
+  padding-left: 10px;
 }
