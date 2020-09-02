@@ -1,6 +1,6 @@
 import React from "react";
 import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
-import SendTweet from "../SendTweet/sendtweet";
+import SendTweet from "../sendtweet";
 
 import "./tweetsection.css";
 

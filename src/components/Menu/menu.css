@@ -1,4 +1,3 @@
-
 html,
 body {
   height: 100%;
@@ -23,9 +22,11 @@ li {
   color: black;
   font-size: 20px;
   font-weight: bold;
+  margin-top: -10px;
 }
 li:hover {
   background-color: #e8f5fe;
+  color: #1a91da;
   cursor: pointer;
 }
 .menu {
@@ -35,6 +36,7 @@ li:hover {
   align-content: flex-start;
 }
 .menuItem {
+  padding: 20px;
   padding: 20px;
   padding-left: 10px;
 }

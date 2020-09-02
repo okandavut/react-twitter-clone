@@ -4,12 +4,12 @@ import Container from "@material-ui/core/Container";
 
 import "./home.css";
 
-import Menu from "../../components/Menu/menu";
-import TweetButton from "../../components/TweetButton/tweetbutton";
-import TweetSection from "../../components/TweetSection/tweetsection";
-import SearchBox from "../components/SearchBox/searchbox";
-import HashtagList from "../../components/HashtagList/hashtaglist";
-import TweetList from "../../components/TweetList/tweetlist";
+import Menu from "../components/menu";
+import TweetButton from "../components/button";
+import TweetSection from "../components/tweetsection";
+import SearchBox from "../components/searchbox";
+import HashtagList from "../components/trendlist";
+import TweetList from "../components/list";
 
 function Home() {
   return (
@@ -47,10 +47,10 @@ function Home() {
             <TweetButton />
           </Grid>
           <Grid item xs={12} sm={6} className="top-line">
-          <TweetList />FF
+            <TweetList />
           </Grid>
           <Grid item xs={12} sm={3} className="left-line">
-          <HashtagList/>
+            <HashtagList />
           </Grid>
         </Grid>
       </Container>
