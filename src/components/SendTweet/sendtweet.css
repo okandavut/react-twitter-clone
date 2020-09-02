@@ -1,0 +1,45 @@
+.send-tweet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  border-top: 0.5px solid #e6ecf0;
+}
+.profile-image {
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.send-tweet-box {
+  width: 85%;
+  height: 70px;
+  border: 0px;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+.send-iconset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.send-iconset button {
+  width: 80px;
+  color: rgb(255, 255, 255);
+  background-color: #1da1f2;
+  height: 40px;
+  font-size: 15px;
+  border: 0px;
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  font-weight: lighter;
+  margin-right: 10px;
+}
+.send-iconset button:hover {
+  background-color: #1a91da;
+}
+.send-iconset .icons{
+    margin: 10px 0px 0px 65px;
+}
