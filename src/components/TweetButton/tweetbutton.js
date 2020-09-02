@@ -4,7 +4,7 @@ import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
 function Menu() {
   return (
     <div className="button-container">
-      <button type="button" className={"button"}>Tweet</button>
+      <button type="button" className={"tweet-button"}>Tweet</button>
     </div>
   );
 }

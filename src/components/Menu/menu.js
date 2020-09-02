@@ -1,41 +1,41 @@
 import React from "react";
 import "./menu.css";
-import HomeRoundedIcon from '@material-ui/icons/HomeRounded';
+import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
 function Menu() {
   return (
     <div className="menu-item">
-      <ul className={"menu"}>
+      <ul className="menu">
         <li>
           <HomeRoundedIcon />
-          <div className={"menuItem"}> Home</div>
+          <div className="menuItem"> Home</div>
         </li>
         <li>
           <HomeRoundedIcon />
-          <div className={"menuItem"}> Explore</div>
+          <div className="menuItem"> Explore</div>
         </li>
         <li>
           <HomeRoundedIcon />
-          <div className={"menuItem"}> Notifications</div>
+          <div className="menuItem"> Notifications</div>
         </li>
         <li>
           <HomeRoundedIcon />
-          <div className={"menuItem"}> Messages</div>
+          <div className="menuItem"> Messages</div>
         </li>
         <li>
           <HomeRoundedIcon />
-          <div className={"menuItem"}> Bookmarks</div>
+          <div className="menuItem"> Bookmarks</div>
         </li>
         <li>
           <HomeRoundedIcon />
-          <div className={"menuItem"}> Lists</div>
+          <div className="menuItem"> Lists</div>
         </li>
         <li>
           <HomeRoundedIcon />
-          <div className={"menuItem"}> Profile</div>
+          <div className="menuItem"> Profile</div>
         </li>
         <li>
           <HomeRoundedIcon />
-          <div className={"menuItem"}> More</div>
+          <div className="menuItem"> More</div>
         </li>
       </ul>
     </div>
