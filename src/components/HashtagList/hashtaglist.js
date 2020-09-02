@@ -37,9 +37,11 @@ function HashtagList() {
         <p className="trend-count">90K Tweets</p>
       </div>
       <div className="show-more">
-        <a href="#" className="show-more-button">
-          Show More
-        </a>
+        <div>
+          <a href="#" className="show-more-button">
+            Show More
+          </a>
+        </div>
       </div>
     </div>
   );
