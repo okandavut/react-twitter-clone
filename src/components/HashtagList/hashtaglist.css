@@ -15,8 +15,8 @@
   align-items: flex-start;
   padding: 10px;
 }
-.trend-topic-container:hover{
-    background-color:#EDF0F2;
+.trend-topic-container:hover {
+  background-color: #edf0f2;
 }
 .trend-topic-container p {
   padding: 5px;
@@ -24,21 +24,20 @@
 .hashtag-header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
-.hashtag-header p {
-  display: flex;
-
-  align-items: flex-start;
-}
-.hashtag-header div {
-  text-align: left;
+.header-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -3px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 .show-more {
   border-top: 0.5px solid #e6ecf0;
   display: flex;
   align-items: flex-start;
-
 }
-.show-more a{
-    margin: 10px 0px 0px 15px;
+.show-more a {
+  margin: 10px 0px 0px 15px;
 }

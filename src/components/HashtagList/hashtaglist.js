@@ -2,14 +2,14 @@ import React from "react";
 import "./hashtaglist.css";
 import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
 
-import Grid from "@material-ui/core/Grid";
-
 function HashtagList() {
   return (
     <div className="hashtag-list">
       <div className="hashtag-header">
-        <h2>Trends for you</h2>
-        <HomeRoundedIcon />
+        <span className="header-title">Trends for you</span>
+        <span className="header-icon">
+          <HomeRoundedIcon />
+        </span>
       </div>
       <div className="trend-topic-container">
         <p className="trend-country">Trending in Netherlands</p>
