@@ -1,40 +1,48 @@
 import React from "react";
 import "./menu.css";
-import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
+import SvgHome from "../icons/Home";
+import SvgMore from "../icons/More";
+import SvgProfile from "../icons/Profile";
+import SvgLists from "../icons/Lists";
+import SvgBookmark from "../icons/Bookmark";
+import SvgMessages from "../icons/Messages";
+import SvgNotification from "../icons/Notification";
+import SvgExplore from "../icons/Explore";
+
 function Menu() {
   return (
     <div className="menu-item">
       <ul className="menu">
         <li>
-          <HomeRoundedIcon />
+          <SvgHome />
           <div className="menuItem"> Home</div>
         </li>
         <li>
-          <HomeRoundedIcon />
+          <SvgExplore />
           <div className="menuItem"> Explore</div>
         </li>
         <li>
-          <HomeRoundedIcon />
+          <SvgNotification />
           <div className="menuItem"> Notifications</div>
         </li>
         <li>
-          <HomeRoundedIcon />
+          <SvgMessages />
           <div className="menuItem"> Messages</div>
         </li>
         <li>
-          <HomeRoundedIcon />
+          <SvgBookmark />
           <div className="menuItem"> Bookmarks</div>
         </li>
         <li>
-          <HomeRoundedIcon />
+          <SvgLists />
           <div className="menuItem"> Lists</div>
         </li>
         <li>
-          <HomeRoundedIcon />
+          <SvgProfile />
           <div className="menuItem"> Profile</div>
         </li>
         <li>
-          <HomeRoundedIcon />
+          <SvgMore />
           <div className="menuItem"> More</div>
         </li>
       </ul>

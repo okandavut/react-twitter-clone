@@ -1,14 +1,14 @@
 import React from "react";
-import "./hashtaglist.css";
-import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
+import "./trendlist.css";
+import SvgOptions from "../icons/Options"
 
-function HashtagList() {
+function TrendList() {
   return (
     <div className="hashtag-list">
       <div className="hashtag-header">
         <span className="header-title">Trends for you</span>
         <span className="header-icon">
-          <HomeRoundedIcon />
+          <SvgOptions />
         </span>
       </div>
       <div className="trend-topic-container">
@@ -47,4 +47,4 @@ function HashtagList() {
   );
 }
 
-export default HashtagList;
+export default TrendList;

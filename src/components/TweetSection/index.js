@@ -1,5 +1,5 @@
 import React from "react";
-import HomeRoundedIcon from "@material-ui/icons/HomeRounded";
+import SvgTimelineProp from "../icons/TimelineProp"
 import SendTweet from "../sendtweet";
 
 import "./tweetsection.css";
@@ -10,7 +10,7 @@ function TweetSection() {
       <div className="tweet-header">
         <span className="tweet-title">Home</span>
         <span className="tweet-icon">
-          <HomeRoundedIcon />
+          <SvgTimelineProp />
         </span>
       </div>
       {/* <div className="send-tweet-section">

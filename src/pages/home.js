@@ -4,11 +4,11 @@ import Container from "@material-ui/core/Container";
 
 import "./home.css";
 
-import Menu from "../components/menu";
+import Menu from "../components/navigation";
 import TweetButton from "../components/button";
 import TweetSection from "../components/tweetsection";
 import SearchBox from "../components/searchbox";
-import HashtagList from "../components/trendlist";
+import TrendList from "../components/trendlist";
 import TweetList from "../components/list";
 
 function Home() {
@@ -34,10 +34,10 @@ function Home() {
               className="home-logo"
             />
           </Grid>
-          <Grid item xs={12} sm={6}>
+          <Grid item xs={12} sm={5}>
             <TweetSection />
           </Grid>
-          <Grid item xs={12} sm={3} className="left-line">
+          <Grid item xs={12} sm={4} className="left-line">
             <SearchBox />
           </Grid>
         </Grid>
@@ -46,11 +46,11 @@ function Home() {
             <Menu />
             <TweetButton />
           </Grid>
-          <Grid item xs={12} sm={6} className="top-line">
+          <Grid item xs={12} sm={5} className="top-line">
             <TweetList />
           </Grid>
-          <Grid item xs={12} sm={3} className="left-line">
-            <HashtagList />
+          <Grid item xs={12} sm={4} className="left-line">
+            <TrendList />
           </Grid>
         </Grid>
       </Container>
