@@ -18,3 +18,79 @@
   font-size: 1.4em;
   color: #1a91da;
 }
+
+.send-tweet-section {
+  position: relative;
+  width: 600px;
+  height: 130px;
+}
+
+.send-tweet {
+  position: relative;
+  width: 600px;
+  height: 130px;
+  border-top: 0.5px solid #e6ecf0;
+}
+.image-column {
+  width: 15%;
+}
+.send-tweet-column {
+  width: 85%;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.icons .icon {
+  width: 78%;
+  text-align: left;
+  font-size: 1.4em;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.icon span {
+  color: #1da1f2;
+  margin-left: 10px;
+  font-size: 1em;
+}
+
+.profile-image {
+  border-radius: 30px;
+  margin: 10px 0px 0px 20px;
+}
+.send-tweet-box {
+  width: 90%;
+  height: 70px;
+  border: 0px;
+  text-align: left;
+  font-size: 20px;
+  margin-left: -20px;
+}
+.send-iconset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tweet-send {
+  width: 80px;
+  height: 39px;
+  right: 17px;
+  bottom: 20px;
+  color: rgb(255, 255, 255);
+  background-color: #1da1f2;
+  height: 40px;
+  font-size: 15px;
+  border: 0px;
+  margin-right: 17px;
+  font-weight: bold;
+  border-radius: 47px;
+}
+.tweet-send:hover {
+  background-color: #1a91da;
+}
+
+.simple-row {
+  display: flex;
+  flex-direction: row;
+}
