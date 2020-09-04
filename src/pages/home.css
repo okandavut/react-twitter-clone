@@ -25,7 +25,6 @@
   top: 0px;
   bottom: 0px;
   border-right: 0.5px solid #e6ecf0;
-
 }
 .right-side {
   position: absolute;
@@ -41,7 +40,7 @@
   top: 0px;
   bottom: 0px;
   overflow-y: scroll;
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: hidden;
+  overflow-x: hidden;
   border-right: 0.5px solid #e6ecf0;
 }

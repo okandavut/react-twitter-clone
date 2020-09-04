@@ -21,13 +21,7 @@ function SendTweet() {
         ></input>
       </div>
       <div className="send-iconset">
-        <div className="icons">
-          <HomeRoundedIcon />
-          <HomeRoundedIcon />
-          <HomeRoundedIcon />
-          <HomeRoundedIcon />
-          <HomeRoundedIcon />
-        </div>
+        <div className="icons"></div>
         <div>
           <button type="button">Tweet </button>
         </div>

@@ -2,6 +2,7 @@
   position: relative;
   width: 600px;
   height: 130px;
+
   border-top: 0.5px solid #e6ecf0;
 }
 .profile-image {
@@ -13,7 +14,6 @@
   border: 0px;
   text-align: center;
   font-size: 20px;
-  text-align: left;
 }
 .send-iconset {
   display: flex;
@@ -22,13 +22,17 @@
 }
 .send-iconset button {
   width: 80px;
-  color: rgb(255, 255, 255);
+  height: 39px;
+  right: 17px;
+  bottom: 20px;
+    color: rgb(255, 255, 255);
   background-color: #1da1f2;
   height: 40px;
   font-size: 15px;
   border: 0px;
-  
+  margin-right: 17px;
   font-weight: bold;
+  border-radius: 47px;
 }
 .send-iconset button:hover {
   background-color: #1a91da;
