@@ -11,7 +11,7 @@ Thanks for the  [Adem Ilter's Figma Design](https://www.figma.com/community/file
 - Library: [React](https://reactjs.org/) ([Create React App](https://github.com/facebook/create-react-app))
 - CSS: [Styled Components](https://www.styled-components.com/)
 - Code formatting: [Prettier](https://prettier.io/)
-- Linting: [ESLint](https://eslint.org/) (with [Airbnb rules](https://www.npmjs.com/package/eslint-config-airbnb))
+- Linting: [ESLint](https://eslint.org/)
 
 
 ## Screen
