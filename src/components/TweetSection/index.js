@@ -8,7 +8,7 @@ function TweetSection() {
   return (
     <div className="tweet-section">
       <div className="tweet-header">
-        <span className="tweet-title">Home</span>
+        <span className="tweet-title">Latest Tweets</span>
         <span className="tweet-icon">
           <SvgTimelineProp />
         </span>

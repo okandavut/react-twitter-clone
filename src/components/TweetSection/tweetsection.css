@@ -1,23 +1,20 @@
-.tweet-section {
-  width: 100%;
-}
 .tweet-header {
+  width: 600px;
+  height: 60px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  
+  justify-items: flex-start;
 }
 .tweet-title {
+  width: 95%;
+  margin: 15px 0px 0px 20px;
   font-size: 20px;
-  font-weight: bold;
-  margin-top: 5px;
-  margin-bottom: 10px;
   text-align: left;
-  margin-left: 10px;
+  font-weight: bold;
 }
 
-.tweet-icon{
-    margin-top: 7px;
-    text-align: left;
-    margin-right: 10px;
+.tweet-icon {
+  margin: 15px 10px 0px 0px;
+  font-size: 1.4em;
+  color: #1a91da;
 }
