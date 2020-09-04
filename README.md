@@ -14,7 +14,8 @@ Thanks for the  [Adem Ilter's Figma Design](https://www.figma.com/community/file
 - Linting: [ESLint](https://eslint.org/) (with [Airbnb rules](https://www.npmjs.com/package/eslint-config-airbnb))
 
 
-Screenshoot :
+## Screen
+<br>
 
 ![React-Twitter-Clone](https://i.ibb.co/m4SRpYX/image.png)
 
