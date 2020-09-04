@@ -13,9 +13,9 @@ function TweetSection() {
           <SvgTimelineProp />
         </span>
       </div>
-      {/* <div className="send-tweet-section">
+      <div className="send-tweet-section">
         <SendTweet />
-      </div> */}
+      </div>
     </div>
   );
 }

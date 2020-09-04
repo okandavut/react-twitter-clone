@@ -1,20 +1,17 @@
 .send-tweet {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: flex-start;
+  position: relative;
+  width: 600px;
+  height: 130px;
   border-top: 0.5px solid #e6ecf0;
 }
 .profile-image {
   border-radius: 30px;
-  margin-top: 10px;
 }
 .send-tweet-box {
   width: 85%;
   height: 70px;
   border: 0px;
   text-align: center;
-  margin-right: 20px;
   font-size: 20px;
   text-align: left;
 }
@@ -30,16 +27,9 @@
   height: 40px;
   font-size: 15px;
   border: 0px;
-  border-bottom-left-radius: 9999px;
-  border-bottom-right-radius: 9999px;
-  border-top-left-radius: 9999px;
-  border-top-right-radius: 9999px;
-  font-weight: lighter;
-  margin-right: 10px;
+  
+  font-weight: bold;
 }
 .send-iconset button:hover {
   background-color: #1a91da;
-}
-.send-iconset .icons{
-    margin: 10px 0px 0px 65px;
 }

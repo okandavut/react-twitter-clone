@@ -1,11 +1,11 @@
 import React from "react";
 import "./trendlist.css";
-import SvgOptions from "../icons/Options"
+import SvgOptions from "../icons/Options";
 
 function TrendList() {
   return (
-    <div className="hashtag-list">
-      <div className="hashtag-header">
+    <div className="trend-list">
+      <div className="trend-header">
         <span className="header-title">Trends for you</span>
         <span className="header-icon">
           <SvgOptions />

@@ -2,6 +2,16 @@ html,
 body {
   height: 100%;
 }
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  position: relative;
+  width: 210px;
+  height: 542px;
+}
+
 ul {
   list-style-type: none;
   width: 100%;
@@ -9,34 +19,31 @@ ul {
   height: 100%;
 }
 li {
-  margin: 0 0 20px 0;
+  margin: 0px 0 10px 0;
   background-color: white;
   border-radius: 30px;
-  min-width: 30%;
   height: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
-  margin-top: -10px;
 }
 li:hover {
   background-color: #e8f5fe;
   color: #1a91da;
   cursor: pointer;
 }
-.menu {
+.navigation-container{
+  margin-top: 8px;
+}
+.navigation {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   align-content: flex-start;
 }
-.menuItem {
+.navigationItem{
   padding: 20px;
-  padding: 20px;
-  padding-left: 10px;
 }

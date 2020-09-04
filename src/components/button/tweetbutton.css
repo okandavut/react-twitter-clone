@@ -13,7 +13,7 @@ body {
   align-content: flex-start;
 }
 .button-container button {
-  width: 100%;
+  width: 87%;
   color: rgb(255, 255, 255);
   background-color: #1da1f2;
   height: 50px;
@@ -23,7 +23,8 @@ body {
   border-bottom-right-radius: 9999px;
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
-  font-weight: lighter;
+  font-weight: bold;
+  margin-top: 10px;
 }
 .button-container button:hover {
   background-color: #1a91da;

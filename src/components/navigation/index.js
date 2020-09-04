@@ -1,5 +1,5 @@
 import React from "react";
-import "./menu.css";
+import "./navigation.css";
 import SvgHome from "../icons/Home";
 import SvgMore from "../icons/More";
 import SvgProfile from "../icons/Profile";
@@ -11,39 +11,39 @@ import SvgExplore from "../icons/Explore";
 
 function Menu() {
   return (
-    <div className="menu-item">
-      <ul className="menu">
+    <div className="navigation-container">
+      <ul className="navigation">
         <li>
           <SvgHome />
-          <div className="menuItem"> Home</div>
+          <div className="navigationItem"> Home</div>
         </li>
         <li>
           <SvgExplore />
-          <div className="menuItem"> Explore</div>
+          <div className="navigationItem"> Explore</div>
         </li>
         <li>
           <SvgNotification />
-          <div className="menuItem"> Notifications</div>
+          <div className="navigationItem"> Notifications</div>
         </li>
         <li>
           <SvgMessages />
-          <div className="menuItem"> Messages</div>
+          <div className="navigationItem"> Messages</div>
         </li>
         <li>
           <SvgBookmark />
-          <div className="menuItem"> Bookmarks</div>
+          <div className="navigationItem"> Bookmarks</div>
         </li>
         <li>
           <SvgLists />
-          <div className="menuItem"> Lists</div>
+          <div className="navigationItem"> Lists</div>
         </li>
         <li>
           <SvgProfile />
-          <div className="menuItem"> Profile</div>
+          <div className="navigationItem"> Profile</div>
         </li>
         <li>
           <SvgMore />
-          <div className="menuItem"> More</div>
+          <div className="navigationItem"> More</div>
         </li>
       </ul>
     </div>
