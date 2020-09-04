@@ -7,6 +7,7 @@ body {
   height: 100%;
 }
 .search {
+  margin-top:5px;
   height: 60px;
 }
 .search-box {

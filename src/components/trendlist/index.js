@@ -12,33 +12,33 @@ function TrendList() {
         </span>
       </div>
       <div className="trend-topic-container">
-        <p className="trend-country">Trending in Netherlands</p>
-        <p className="trend-topic">Los Angeles</p>
-        <p className="trend-count">90K Tweets</p>
-      </div>
-      <div className="trend-topic-container">
-        <p className="trend-country">Trending in Netherlands</p>
-        <p className="trend-topic">Los Angeles</p>
-        <p className="trend-count">90K Tweets</p>
-      </div>
-      <div className="trend-topic-container">
-        <p className="trend-country">Trending in Netherlands</p>
-        <p className="trend-topic">Los Angeles</p>
-        <p className="trend-count">90K Tweets</p>
-      </div>
-      <div className="trend-topic-container">
-        <p className="trend-country">Trending in Netherlands</p>
-        <p className="trend-topic">Los Angeles</p>
-        <p className="trend-count">90K Tweets</p>
-      </div>
-      <div className="trend-topic-container">
-        <p className="trend-country">Trending in Netherlands</p>
-        <p className="trend-topic">Los Angeles</p>
-        <p className="trend-count">90K Tweets</p>
-      </div>
-      <div className="show-more">
+        <div className="trend-topic-row">
+          <p className="trend-country">Trending in Netherlands</p>
+          <p className="trend-topic">Los Angeles</p>
+          <p className="trend-count">90K Tweets</p>
+        </div>
+        <div className="trend-topic-row">
+          <p className="trend-country">Trending in Netherlands</p>
+          <p className="trend-topic">Los Angeles</p>
+          <p className="trend-count">90K Tweets</p>
+        </div>
+        <div className="trend-topic-row">
+          <p className="trend-country">Trending in Netherlands</p>
+          <p className="trend-topic">Los Angeles</p>
+          <p className="trend-count">90K Tweets</p>
+        </div>
+        <div className="trend-topic-row">
+          <p className="trend-country">Trending in Netherlands</p>
+          <p className="trend-topic">Los Angeles</p>
+          <p className="trend-count">90K Tweets</p>
+        </div>
+        <div className="trend-topic-row">
+          <p className="trend-country">Trending in Netherlands</p>
+          <p className="trend-topic">Los Angeles</p>
+          <p className="trend-count">90K Tweets</p>
+        </div>
         <div>
-          <a href="#" className="show-more-button">
+          <a href="0#" className="show-more-button">
             Show More
           </a>
         </div>

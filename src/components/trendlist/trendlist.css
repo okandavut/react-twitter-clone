@@ -23,6 +23,9 @@
   font-size: 12px;
 }
 .trend-topic-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
   position: static;
   width: 320px;
   height: 76px;
@@ -30,39 +33,36 @@
   top: 357px;
   flex: none;
   order: 5;
-  margin: 0px 0px;
 }
-.trend-topic-container:hover {
+.trend-topic-row {
+  margin-top: 10px;
+  border-top: 0.5px solid e6ecf0;
+}
+.trend-topic-row:hover {
   background-color: #edf0f2;
 }
-.trend-topic-container p {
+.trend-topic-row p {
   padding: 5px;
-}
-
-.trend-country {
-  font-size: 10px;
-  color: gray;
-}
-.trend-topic {
-  font-weight: bold;
-  font-size: 16px !important;
-}
-.trend-count {
-  font-size: 10px;
-  color: gray;
 }
 
 .trend-header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: relative;
-  width: 250px;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 320px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
 }
 .header-title {
   font-size: 20px;
   font-weight: bold;
+  width: 85%;
   text-align: left;
+}
+.header-icon{
+  margin-top: 5px;
 }
 .show-more {
   border-top: 0.5px solid #e6ecf0;
