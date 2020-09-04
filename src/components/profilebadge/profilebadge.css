@@ -1,0 +1,29 @@
+.profile-badge-section {
+  display: flex;
+  flex-direction: row;
+  width: 235px;
+  height: 60px;
+  border-radius: 40px;
+  margin-top: 275px;
+  text-align: left;
+}
+
+.profile-badge-section:hover {
+  background-color: #e8f5fe;
+  cursor: pointer;
+}
+.badge-profile-image {
+  width: 50px;
+  height: 50px;
+ margin: 7px 0px 0px 10px;
+  border-radius: 30px;
+}
+
+.badge-user-column{
+    display: flex;
+    flex-direction: column;
+}
+.badge-username{
+    margin-top: 10px;
+    margin-left: 10px;
+}

@@ -9,6 +9,7 @@ import TweetSection from "../components/tweetsection";
 import SearchBox from "../components/searchbox";
 import TrendList from "../components/trendlist";
 import TweetList from "../components/list";
+import ProfileBadge from "../components/profilebadge";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
           />
           <Menu />
           <TweetButton />
+          <ProfileBadge />
         </div>
 
         <div className="column mid-side">
