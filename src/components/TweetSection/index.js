@@ -36,10 +36,18 @@ function TweetSection() {
             <div className="create-tweet-section">
               <div className="icons">
                 <div className="icon">
-                  <span><SvgMedia /></span>
-                  <span><SvgGif /></span>
-                  <span><SvgQuestion /></span>
-                  <span><SvgEmoji /></span>
+                  <span>
+                    <SvgMedia />
+                  </span>
+                  <span>
+                    <SvgGif />
+                  </span>
+                  <span>
+                    <SvgQuestion />
+                  </span>
+                  <span>
+                    <SvgEmoji />
+                  </span>
                 </div>
                 <button type="button" className="tweet-send">
                   Tweet

@@ -4,7 +4,7 @@
   left: calc(50% - 1225px / 2 - 0.5px);
   top: 0px;
   bottom: 0px;
-  height: 840px;
+  height: 930px;
 }
 
 .container .row {
@@ -40,7 +40,8 @@
   top: 0px;
   bottom: 0px;
   overflow-y: scroll;
-  overflow-y: hidden;
-  overflow-x: hidden;
   border-right: 0.5px solid #e6ecf0;
+}
+.mid-side::-webkit-scrollbar {
+  display: none;
 }
